@@ -1,0 +1,12 @@
+name: gromacs-tutorials-workshop
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib
+  - nglview=3.1.1
+  - mdtraj
+  - notebook
+  - numpy
+  - requests
+  - pandas

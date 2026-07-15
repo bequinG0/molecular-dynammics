@@ -1,0 +1,44 @@
+# Траектории
+*.xtc
+*.trr
+
+# Бинарные входные файлы GROMACS
+*.tpr
+
+# Энергия и чекпойнты
+*.edr
+*.cpt
+
+# Координаты (оставляем только npt.gro для воспроизведения)
+em.gro
+nvt.gro
+solv.gro
+solv_ions.gro
+complex.gro
+box.gro
+protein.gro
+md.gro
+
+# Логи
+em.log
+nvt.log
+npt.log
+*.log
+
+# Резервные копии
+#*#
+*~
+
+# Силовые поля
+charmm36-*.ff/
+
+# Временные файлы
+*.bak
+*.tmp
+rest.pdb
+1MG5_protein.pdb
+gmx
+mdout.mdp
+npt_psf.tpr
+#*
+*.zip
